@@ -1,3 +1,5 @@
+*[English](README.md) ∙ [简体中文](README-zh-Hans.md) | [Brazilian Portuguese](https://github.com/donnemartin/system-design-primer/issues/40) ∙ [Japanese](https://github.com/donnemartin/system-design-primer/issues/100) ∙ [Polish](https://github.com/donnemartin/system-design-primer/issues/68) ∙ [Russian](https://github.com/donnemartin/system-design-primer/issues/87) ∙ [Turkish](https://github.com/donnemartin/system-design-primer/issues/39) | [Add Translation](https://github.com/donnemartin/system-design-primer/issues/28)*
+
 # The System Design Primer
 
 <p align="center">
@@ -7,11 +9,11 @@
 
 ## Motivation
 
-> Learn how to design large scale systems.
+> Learn how to design large-scale systems.
 >
 > Prep for the system design interview.
 
-### Learn how to design large scale systems
+### Learn how to design large-scale systems
 
 Learning how to design scalable systems will help you become a better engineer.
 
@@ -19,9 +21,9 @@ System design is a broad topic.  There is a **vast amount of resources scattered
 
 This repo is an **organized collection** of resources to help you learn how to build systems at scale.
 
-#### Learn from the open source community
+### Learn from the open source community
 
-This is an **early draft** of a **continually updated, open source** project.
+This is an early draft of a continually updated, open source project.
 
 [Contributions](#contributing) are welcome!
 
@@ -29,7 +31,7 @@ This is an **early draft** of a **continually updated, open source** project.
 
 In addition to coding interviews, system design is a **required component** of the **technical interview process** at many tech companies.
 
-**Practice common system design interview questions** and **compare** your results with sample **discussions, code, and diagrams**.
+**Practice common system design interview questions** and **compare** your results with **sample solutions**: discussions, code, and diagrams.
 
 Additional topics for interview prep:
 
@@ -48,11 +50,24 @@ Additional topics for interview prep:
 
 The provided [Anki flashcard decks](https://apps.ankiweb.net/) use spaced repetition to help you retain key system design concepts.
 
-* [System design deck](https://github.com/donnemartin/system-design-primer/blob/master/resources/flash_cards/System%20Design.apkg)
-* [System design exercises deck](https://github.com/donnemartin/system-design-primer/blob/master/resources/flash_cards/System%20Design%20Exercises.apkg)
-* [Object oriented design exercises deck](https://github.com/donnemartin/system-design-primer/blob/master/resources/flash_cards/OO%20Design.apkg)
+* [System design deck](resources/flash_cards/System%20Design.apkg)
+* [System design exercises deck](resources/flash_cards/System%20Design%20Exercises.apkg)
+* [Object oriented design exercises deck](resources/flash_cards/OO%20Design.apkg)
 
 Great for use while on-the-go.
+
+### Coding Resource: Interactive Coding Challenges
+
+Looking for resources to help you prep for the [**Coding Interview**](https://github.com/donnemartin/interactive-coding-challenges)?
+
+<p align="center">
+  <img src="http://i.imgur.com/b4YtAEN.png">
+  <br/>
+</p>
+
+Check out the sister repo [**Interactive Coding Challenges**](https://github.com/donnemartin/interactive-coding-challenges), which contains an additional Anki deck:
+
+* [Coding deck](https://github.com/donnemartin/interactive-coding-challenges/tree/master/anki_cards/Coding.apkg)
 
 ## Contributing
 
@@ -63,10 +78,11 @@ Feel free to submit pull requests to help:
 * Fix errors
 * Improve sections
 * Add new sections
+* [Translate](https://github.com/donnemartin/system-design-primer/issues/28)
 
 Content that needs some polishing is placed [under development](#under-development).
 
-Review the [Contributing Guidelines](https://github.com/donnemartin/system-design-primer/blob/master/CONTRIBUTING.md).
+Review the [Contributing Guidelines](CONTRIBUTING.md).
 
 ## Index of system design topics
 
@@ -164,7 +180,7 @@ Review the [Contributing Guidelines](https://github.com/donnemartin/system-desig
 
 > Suggested topics to review based on your interview timeline (short, medium, long).
 
-![Imgur](http://i.imgur.com/ciJelTB.png)
+![Imgur](http://i.imgur.com/OfVllex.png)
 
 **Q: For interviews, do I need to know everything here?**
 
@@ -180,11 +196,11 @@ What you are asked in an interview depends on variables such as:
 
 More experienced candidates are generally expected to know more about system design.  Architects or team leads might be expected to know more than individual contributors.  Top tech companies are likely to have one or more design interview rounds.
 
-Start broad and go deeper in a few areas.  It helps to know a little about various key system design topics.  Adjust the following guide based on your experience, what positions you are interviewing for, and which companies you are interviewing with.
+Start broad and go deeper in a few areas.  It helps to know a little about various key system design topics.  Adjust the following guide based on your timeline, experience, what positions you are interviewing for, and which companies you are interviewing with.
 
-* **Short** - Aim for **breadth** with system design topics.  Practice by solving **some** interview questions.
-* **Medium** - Aim for **breadth** and **some depth** with system design topics.  Practice by solving **many** interview questions.
-* **Long** - Aim for **breadth** and **more depth** with system design topics.  Practice by solving **most** interview questions.
+* **Short timeline** - Aim for **breadth** with system design topics.  Practice by solving **some** interview questions.
+* **Medium timeline** - Aim for **breadth** and **some depth** with system design topics.  Practice by solving **many** interview questions.
+* **Long timeline** - Aim for **breadth** and **more depth** with system design topics.  Practice by solving **most** interview questions.
 
 | | Short | Medium | Long |
 |---|---|---|---|
@@ -192,9 +208,9 @@ Start broad and go deeper in a few areas.  It helps to know a little about vario
 | Read through a few articles in the [Company engineering blogs](#company-engineering-blogs) for the companies you are interviewing with | :+1: | :+1: | :+1: |
 | Read through a few [Real world architectures](#real-world-architectures) | :+1: | :+1: | :+1: |
 | Review [How to approach a system design interview question](#how-to-approach-a-system-design-interview-question) | :+1: | :+1: | :+1: |
-| Work through [System design interview questions with solutions](#system-design-interview-questions-with-solutions) | Few | Some | Many |
-| Work through [Object-oriented design interview questions with solutions](#object-oriented-design-interview-questions-with-solutions) | Few | Some | Many |
-| Review [Additional system design interview questions](#additional-system-design-interview-questions) | Few | Some | Many |
+| Work through [System design interview questions with solutions](#system-design-interview-questions-with-solutions) | Some | Many | Most |
+| Work through [Object-oriented design interview questions with solutions](#object-oriented-design-interview-questions-with-solutions) | Some | Many | Most |
+| Review [Additional system design interview questions](#additional-system-design-interview-questions) | Some | Many | Most |
 
 ## How to approach a system design interview question
 
@@ -226,10 +242,10 @@ Outline a high level design with all important components.
 
 ### Step 3: Design core components
 
-Dive into details for each core component.  For example, if you were asked to [design a url shortening service](https://github.com/donnemartin/system-design-primer/blob/master/solutions/system_design/pastebin/README.md), discuss:
+Dive into details for each core component.  For example, if you were asked to [design a url shortening service](solutions/system_design/pastebin/README.md), discuss:
 
 * Generating and storing a hash of the full url
-    * [MD5](https://github.com/donnemartin/system-design-primer/blob/master/solutions/system_design/pastebin/README.md) and [Base62](https://github.com/donnemartin/system-design-primer/blob/master/solutions/system_design/pastebin/README.md)
+    * [MD5](solutions/system_design/pastebin/README.md) and [Base62](solutions/system_design/pastebin/README.md)
     * Hash collisions
     * SQL or NoSQL
     * Database schema
@@ -272,61 +288,61 @@ Check out the following links to get a better idea of what to expect:
 
 | Question | |
 |---|---|
-| Design Pastebin.com (or Bit.ly) | [Solution](https://github.com/donnemartin/system-design-primer/blob/master/solutions/system_design/pastebin/README.md) |
-| Design the Twitter timeline (or Facebook feed)<br/>Design Twitter search (or Facebook search) | [Solution](https://github.com/donnemartin/system-design-primer/blob/master/solutions/system_design/twitter/README.md) |
-| Design a web crawler | [Solution](https://github.com/donnemartin/system-design-primer/blob/master/solutions/system_design/web_crawler/README.md) |
-| Design Mint.com | [Solution](https://github.com/donnemartin/system-design-primer/blob/master/solutions/system_design/mint/README.md) |
-| Design the data structures for a social network | [Solution](https://github.com/donnemartin/system-design-primer/blob/master/solutions/system_design/social_graph/README.md) |
-| Design a key-value store for a search engine | [Solution](https://github.com/donnemartin/system-design-primer/blob/master/solutions/system_design/query_cache/README.md) |
-| Design Amazon's sales ranking by category feature | [Solution](https://github.com/donnemartin/system-design-primer/blob/master/solutions/system_design/sales_rank/README.md) |
-| Design a system that scales to millions of users on AWS | [Solution](https://github.com/donnemartin/system-design-primer/blob/master/solutions/system_design/scaling_aws/README.md) |
+| Design Pastebin.com (or Bit.ly) | [Solution](solutions/system_design/pastebin/README.md) |
+| Design the Twitter timeline (or Facebook feed)<br/>Design Twitter search (or Facebook search) | [Solution](solutions/system_design/twitter/README.md) |
+| Design a web crawler | [Solution](solutions/system_design/web_crawler/README.md) |
+| Design Mint.com | [Solution](solutions/system_design/mint/README.md) |
+| Design the data structures for a social network | [Solution](solutions/system_design/social_graph/README.md) |
+| Design a key-value store for a search engine | [Solution](solutions/system_design/query_cache/README.md) |
+| Design Amazon's sales ranking by category feature | [Solution](solutions/system_design/sales_rank/README.md) |
+| Design a system that scales to millions of users on AWS | [Solution](solutions/system_design/scaling_aws/README.md) |
 | Add a system design question | [Contribute](#contributing) |
 
 ### Design Pastebin.com (or Bit.ly)
 
-[View exercise and solution](https://github.com/donnemartin/system-design-primer/blob/master/solutions/system_design/pastebin/README.md)
+[View exercise and solution](solutions/system_design/pastebin/README.md)
 
 ![Imgur](http://i.imgur.com/4edXG0T.png)
 
 ### Design the Twitter timeline and search (or Facebook feed and search)
 
-[View exercise and solution](https://github.com/donnemartin/system-design-primer/blob/master/solutions/system_design/twitter/README.md)
+[View exercise and solution](solutions/system_design/twitter/README.md)
 
 ![Imgur](http://i.imgur.com/jrUBAF7.png)
 
 ### Design a web crawler
 
-[View exercise and solution](https://github.com/donnemartin/system-design-primer/blob/master/solutions/system_design/web_crawler/README.md)
+[View exercise and solution](solutions/system_design/web_crawler/README.md)
 
 ![Imgur](http://i.imgur.com/bWxPtQA.png)
 
 ### Design Mint.com
 
-[View exercise and solution](https://github.com/donnemartin/system-design-primer/blob/master/solutions/system_design/mint/README.md)
+[View exercise and solution](solutions/system_design/mint/README.md)
 
 ![Imgur](http://i.imgur.com/V5q57vU.png)
 
 ### Design the data structures for a social network
 
-[View exercise and solution](https://github.com/donnemartin/system-design-primer/blob/master/solutions/system_design/social_graph/README.md)
+[View exercise and solution](solutions/system_design/social_graph/README.md)
 
 ![Imgur](http://i.imgur.com/cdCv5g7.png)
 
 ### Design a key-value store for a search engine
 
-[View exercise and solution](https://github.com/donnemartin/system-design-primer/blob/master/solutions/system_design/query_cache/README.md)
+[View exercise and solution](solutions/system_design/query_cache/README.md)
 
 ![Imgur](http://i.imgur.com/4j99mhe.png)
 
 ### Design Amazon's sales ranking by category feature
 
-[View exercise and solution](https://github.com/donnemartin/system-design-primer/blob/master/solutions/system_design/sales_rank/README.md)
+[View exercise and solution](solutions/system_design/sales_rank/README.md)
 
 ![Imgur](http://i.imgur.com/MzExP06.png)
 
 ### Design a system that scales to millions of users on AWS
 
-[View exercise and solution](https://github.com/donnemartin/system-design-primer/blob/master/solutions/system_design/scaling_aws/README.md)
+[View exercise and solution](solutions/system_design/scaling_aws/README.md)
 
 ![Imgur](http://i.imgur.com/jj3A5N8.png)
 
@@ -340,12 +356,12 @@ Check out the following links to get a better idea of what to expect:
 
 | Question | |
 |---|---|
-| Design a deck of cards to be used for blackjack | [Solution](https://github.com/donnemartin/system-design-primer/blob/master/solutions/object_oriented_design/deck_of_cards/deck_of_cards.ipynb)  |
-| Design a call center | [Solution](https://github.com/donnemartin/system-design-primer/blob/master/solutions/object_oriented_design/call_center/call_center.ipynb)  |
-| Design a hash map | [Solution](https://github.com/donnemartin/system-design-primer/blob/master/solutions/object_oriented_design/hash_table/hash_map.ipynb)  |
-| Design a least recently used cache | [Solution](https://github.com/donnemartin/system-design-primer/blob/master/solutions/object_oriented_design/lru_cache/lru_cache.ipynb)  |
-| Design a parking lot | [Solution](https://github.com/donnemartin/system-design-primer/blob/master/solutions/object_oriented_design/parking_lot/parking_lot.ipynb)  |
-| Design a chat server | [Solution](https://github.com/donnemartin/system-design-primer/blob/master/solutions/object_oriented_design/online_chat/online_chat.ipynb)  |
+| Design a hash map | [Solution](solutions/object_oriented_design/hash_table/hash_map.ipynb)  |
+| Design a least recently used cache | [Solution](solutions/object_oriented_design/lru_cache/lru_cache.ipynb)  |
+| Design a call center | [Solution](solutions/object_oriented_design/call_center/call_center.ipynb)  |
+| Design a deck of cards | [Solution](solutions/object_oriented_design/deck_of_cards/deck_of_cards.ipynb)  |
+| Design a parking lot | [Solution](solutions/object_oriented_design/parking_lot/parking_lot.ipynb)  |
+| Design a chat server | [Solution](solutions/object_oriented_design/online_chat/online_chat.ipynb)  |
 | Design a circular array | [Contribute](#contributing)  |
 | Add an object-oriented design question | [Contribute](#contributing) |
 
@@ -439,7 +455,7 @@ Waiting for a response from the partitioned node might result in a timeout error
 
 #### AP - availability and partition tolerance
 
-Responses return the most recent version of the data, which might not be the latest.  Writes might take some time to propagate when the partition is resolved.
+Responses return the most recent version of the data available on the a node, which might not be the latest.  Writes might take some time to propagate when the partition is resolved.
 
 AP is a good choice if the business needs allow for [eventual consistency](#eventual-consistency) or when the system needs to continue working despite external errors.
 
@@ -557,7 +573,7 @@ Services such as [CloudFlare](https://www.cloudflare.com/dns/) and [Route 53](ht
   <i><a href=https://www.creative-artworks.eu/why-use-a-content-delivery-network-cdn/>Source: Why use a CDN</a></i>
 </p>
 
-A content delivery network (CDN) is a globally distributed network of proxy servers, serving content from locations closer to the user.  Generally, static files such as HTML/CSS/JSS, photos, and videos are served from CDN, although some CDNs such as Amazon's CloudFront support dynamic content.  The site's DNS resolution will tell clients which server to contact.
+A content delivery network (CDN) is a globally distributed network of proxy servers, serving content from locations closer to the user.  Generally, static files such as HTML/CSS/JS, photos, and videos are served from CDN, although some CDNs such as Amazon's CloudFront support dynamic content.  The site's DNS resolution will tell clients which server to contact.
 
 Serving content from CDNs can significantly improve performance in two ways:
 
@@ -572,7 +588,7 @@ Sites with a small amount of traffic or sites with content that isn't often upda
 
 ### Pull CDNs
 
-Pull CDNs grab new content from your server when the first user requests the content.  You leave the content on your server and rewrite URLs to point to the CDN.  This results in a slower request until the content is cached on the server.
+Pull CDNs grab new content from your server when the first user requests the content.  You leave the content on your server and rewrite URLs to point to the CDN.  This results in a slower request until the content is cached on the CDN.
 
 A [time-to-live (TTL)](https://en.wikipedia.org/wiki/Time_to_live) determines how long content is cached.  Pull CDNs minimize storage space on the CDN, but can create redundant traffic if files expire and are pulled before they have actually changed.
 
@@ -627,7 +643,7 @@ Load balancers can route traffic based on various metrics, including:
 
 Layer 4 load balancers look at info at the [transport layer](#communication) to decide how to distribute requests.  Generally, this involves the source, destination IP addresses, and ports in the header, but not the contents of the packet.  Layer 4 load balancers forward network packets to and from the upstream server, performing [Network Address Translation (NAT)](https://www.nginx.com/resources/glossary/layer-4-load-balancing/).
 
-### layer 7 load balancing
+### Layer 7 load balancing
 
 Layer 7 load balancers look at the [application layer](#communication) to decide how to distribute requests.  This can involve contents of the header, message, and cookies.  Layer 7 load balancers terminates network traffic, reads the message, makes a load-balancing decision, then opens a connection to the selected server.  For example, a layer 7 load balancer can direct video traffic to servers that host videos while directing more sensitive user billing traffic to security-hardened servers.
 
@@ -725,7 +741,7 @@ Pinterest, for example, could have the following microservices: user profile, fo
 
 ### Service Discovery
 
-Systems such as [Zookeeper](http://www.slideshare.net/sauravhaloi/introduction-to-apache-zookeeper) can help services find each other by keeping track of registered names, addresses, ports, etc.
+Systems such as [Consul](https://www.consul.io/docs/index.html), [Etcd](https://coreos.com/etcd/docs/latest), and [Zookeeper](http://www.slideshare.net/sauravhaloi/introduction-to-apache-zookeeper) can help services find each other by keeping track of registered names, addresses, and ports.  [Health checks](https://www.consul.io/intro/getting-started/checks.html) help verify service integrity and are often done using an [HTTP](#hypertext-transfer-protocol-http) endpoint.  Both Consul and Etcd have a built in [key-value store](#key-value-store) that can be useful for storing config values and other shared data.
 
 ### Disadvantage(s): application layer
 
@@ -861,7 +877,7 @@ Denormalization attempts to improve read performance at the expense of some writ
 
 Once data becomes distributed with techniques such as [federation](#federation) and [sharding](#sharding), managing joins across data centers further increases complexity.  Denormalization might circumvent the need for such complex joins.
 
-In most systems, reads can heavily number writes 100:1 or even 1000:1.  A read resulting in a complex database join can be very expensive, spending a significant amount of time on disk operations.
+In most systems, reads can heavily outnumber writes 100:1 or even 1000:1.  A read resulting in a complex database join can be very expensive, spending a significant amount of time on disk operations.
 
 ##### Disadvantage(s): denormalization
 
@@ -943,7 +959,7 @@ A key-value store generally allows for O(1) reads and writes and is often backed
 
 Key-value stores provide high performance and are often used for simple data models or for rapidly-changing data, such as an in-memory cache layer.  Since they offer only a limited set of operations, complexity is shifted to the application layer if additional operations are needed.
 
-A key-value store is the basis for more complex system systems such as a document store, and in some cases, a graph database.
+A key-value store is the basis for more complex systems such as a document store, and in some cases, a graph database.
 
 ##### Source(s) and further reading: key-value store
 
@@ -1045,7 +1061,7 @@ Reasons for **NoSQL**:
 
 * Semi-structured data
 * Dynamic or flexible schema
-* Non relational data
+* Non-relational data
 * No need for complex joins
 * Store many TB (or PB) of data
 * Very data intensive workload
@@ -1156,6 +1172,7 @@ def get_user(self, user_id):
     if user is None:
         user = db.query("SELECT * FROM users WHERE user_id = {0}", user_id)
         if user is not None:
+            key = "user.{0}".format(user_id)
             cache.set(key, json.dumps(user))
     return user
 ```
@@ -1213,7 +1230,7 @@ Write-through is a slow overall operation due to the write operation, but subseq
   <i><a href=http://www.slideshare.net/jboner/scalability-availability-stability-patterns/>Source: Scalability, availability, stability, patterns</a></i>
 </p>
 
-In write-behind, tha application does the following:
+In write-behind, the application does the following:
 
 * Add/update entry in cache
 * Asynchronously write entry to the data store, improving write performance
@@ -1327,8 +1344,11 @@ A basic HTTP request consists of a verb (method) and a resource (endpoint).  Bel
 
 HTTP is an application layer protocol relying on lower-level protocols such as **TCP** and **UDP**.
 
-* [HTTP](https://www.nginx.com/resources/glossary/http/)
-* [README](https://www.quora.com/What-is-the-difference-between-HTTP-protocol-and-TCP-protocol)
+#### Source(s) and further reading: HTTP
+
+* [What is HTTP?](https://www.nginx.com/resources/glossary/http/)
+* [Difference between HTTP and TCP](https://www.quora.com/What-is-the-difference-between-HTTP-protocol-and-TCP-protocol)
+* [Difference between PUT and PATCH](https://laracasts.com/discuss/channels/general-discussion/whats-the-differences-between-put-and-patch?page=1)
 
 ### Transmission control protocol (TCP)
 
@@ -1343,7 +1363,7 @@ TCP is a connection-oriented protocol over an [IP network](https://en.wikipedia.
 * Sequence numbers and [checksum fields](https://en.wikipedia.org/wiki/Transmission_Control_Protocol#Checksum_computation) for each packet
 * [Acknowledgement](https://en.wikipedia.org/wiki/Acknowledgement_(data_networks)) packets and automatic retransmission
 
-If the sender does not receive a correct response, it will resend the packets.  If there are multiple timeouts, the connection is dropped.  TCP also implements [flow control](https://en.wikipedia.org/wiki/Flow_control_(data)) and [congestion control](https://en.wikipedia.org/wiki/Network_congestion#Congestion_control).  These guarantees cause delays and generally results in less efficient transmission than UDP.
+If the sender does not receive a correct response, it will resend the packets.  If there are multiple timeouts, the connection is dropped.  TCP also implements [flow control](https://en.wikipedia.org/wiki/Flow_control_(data)) and [congestion control](https://en.wikipedia.org/wiki/Network_congestion#Congestion_control).  These guarantees cause delays and generally result in less efficient transmission than UDP.
 
 To ensure high throughput, web servers can keep a large number of TCP connections open, resulting in high memory usage.  It can be expensive to have a large number of open connections between web server threads and say, a [memcached](#memcached) server.  [Connection pooling](https://en.wikipedia.org/wiki/Connection_pool) can help in addition to switching to UDP where applicable.
 
@@ -1416,12 +1436,12 @@ POST /anotheroperation
 
 RPC is focused on exposing behaviors.  RPCs are often used for performance reasons with internal communications, as you can hand-craft native calls to better fit your use cases.
 
-Choose a Native Library aka SDK when:
+Choose a native library (aka SDK) when:
 
 * You know your target platform.
-* You want to control how your "logic" is accessed
-* You want to control how error control happens off your library
-* Performance and end user experience is your primary concern
+* You want to control how your "logic" is accessed.
+* You want to control how error control happens off your library.
+* Performance and end user experience is your primary concern.
 
 HTTP APIs following **REST** tend to be used more often for public APIs.
 
@@ -1723,6 +1743,8 @@ Handy metrics based on numbers above:
 
 * [kilimchoi/engineering-blogs](https://github.com/kilimchoi/engineering-blogs)
 
+The list of blogs here will be kept relatively small and [kilimchoi/engineering-blogs](https://github.com/kilimchoi/engineering-blogs) will contain the larger list to avoid duplicating work. Do consider adding your company blog to the engineering-blogs repo instead.
+
 ## Under development
 
 Interested in adding a section or helping complete one in-progress?  [Contribute](#contributing)!
@@ -1740,6 +1762,7 @@ Special thanks to:
 
 * [Hired in tech](http://www.hiredintech.com/system-design/the-system-design-process/)
 * [Cracking the coding interview](https://www.amazon.com/dp/0984782850/)
+* [High scalability](http://highscalability.com/)
 * [checkcheckzz/system-design-interview](https://github.com/checkcheckzz/system-design-interview)
 * [shashank88/system_design](https://github.com/shashank88/system_design)
 * [mmcgrana/services-engineering](https://github.com/mmcgrana/services-engineering)
@@ -1754,6 +1777,10 @@ Feel free to contact me to discuss any issues, questions, or comments.
 My contact info can be found on my [GitHub page](https://github.com/donnemartin).
 
 ## License
+
+*I am providing code and resources in this repository to you under an open source license.  Because this is my personal repository, the license you receive to my code and resources is from me and not my employer (Facebook).*
+
+    Copyright 2017 Donne Martin
 
     Creative Commons Attribution 4.0 International License (CC BY 4.0)
 
